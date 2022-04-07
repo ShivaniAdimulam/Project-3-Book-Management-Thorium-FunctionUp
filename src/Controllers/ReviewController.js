@@ -79,7 +79,7 @@ const createReview = async function (req, res) {
 
 const updateReview = async function (req, res) {
     try {
-        //let data = req.body
+        let data = req.body
         // let review = req.body.review;
         // let rating = req.body.rating;
         // let reviewedBy = req.body.reviewedBy;
